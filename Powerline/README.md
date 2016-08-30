@@ -26,7 +26,7 @@ sudo apt-get install -y python3-pip
 ```
 ## Install powerline-status
 ```bash
-sudo pip3 install -y powerline-status
+sudo pip3 install powerline-status
 ```
 # ~/.vimrc
 ```
