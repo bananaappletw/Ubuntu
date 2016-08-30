@@ -1,10 +1,12 @@
 # Customize-Ubuntu-step-by-step
-- Git
+- [Git](./Git)1
 
 - Editor
 	- [Vim](./Vim)
 	- [Emacs](./Emacs)
-- Powerline
+
 - Terminal multiplexer
 	- [Screen](./Screen)
 	- [Tmux](./Tmux)
+
+- [Powerline](./Powerline)
