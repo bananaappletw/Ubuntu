@@ -31,5 +31,10 @@ touch ~/.gitconfig
         up = rebase
         ci = commit
 ```
+# Generating a new SSH key
+```bash
+ssh-keygen -t rsa -b 4096 -C "webberapple@gmail.com"
+```
+# Copy ~/.ssh/id_rsa.pub content add to github
 
 # Reference
