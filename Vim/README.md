@@ -5,6 +5,39 @@
 ```bash
 sudo apt-get install -y vim
 ```
+# Configuration
+## Basic .vimrc
+```
+" set syntax highlighting     
+syntax on             
+
+" set line number
+set number    
+                   
+" set ruler
+set ruler     
+                     
+" set auto intent
+set autointent
+
+" Set to auto read when a file is changed from the outside
+set autoread
+
+
+"""""""
+" Tab "
+"""""""
+
+" To insert space characters whenever the tab key is pressed
+" With this option set, if you want to enter a real tab character use Ctrl-V<Tab> key sequence.
+set expandtab
+
+" To control the number of space characters that will be inserted when the tab key is pressed
+set tabstop=4
+
+" To change the number of space characters inserted for indentation
+set shiftwidth=4
+```
 # Plugins
 
 ## Plugin manager Vundle
@@ -35,6 +68,10 @@ filetype plugin indent on    " required
 ### Configuration ~/.vimrc
 ```
 Plugin 'scrooloose/nerdtree'
+```
+### Press F1 to open NERD Tree
+```
+map <F1> :NERDTreeToggle<CR>
 ```
 ### Install Plugin
 ```bash
