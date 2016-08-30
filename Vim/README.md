@@ -7,11 +7,14 @@ sudo apt-get install -y vim
 ```
 # Plugins
 
-## Install Plugin manager
+## Plugin manager Vundle
+
+### Installation
 ```bash
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
-## Configuration ~/.vimrc
+
+### Configuration ~/.vimrc
 ```
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -27,6 +30,18 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 ```
 
+## NERD Tree
+
+### Configuration ~/.vimrc
+```
+Plugin 'scrooloose/nerdtree'
+```
+### Install Plugin
+```bash
+vim +PluginInstall +qall
+```
+
 # Reference
 - [Vundle](https://github.com/VundleVim/Vundle.vim)
+- [NERD Tree](https://github.com/scrooloose/nerdtree)
 - [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
