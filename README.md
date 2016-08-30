@@ -1,5 +1,5 @@
 # Customize-Ubuntu-step-by-step
-- [Git](./Git)1
+- [Git](./Git)
 
 - Editor
 	- [Vim](./Vim)
