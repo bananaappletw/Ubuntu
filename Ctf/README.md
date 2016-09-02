@@ -19,6 +19,12 @@ sudo apt-get install -y libssl-dev
 sudo pip3 install --upgrade pwntools
 ```
 
+# Nasm
+
+```bash
+sudo apt-get install -y nasm
+```
+
 # Gdb peda
 
 ```bash
