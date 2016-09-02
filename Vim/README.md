@@ -73,12 +73,44 @@ Plugin 'scrooloose/nerdtree'
 ```
 map <F1> :NERDTreeToggle<CR>
 ```
+
 ### Install Plugin
 ```bash
 vim +PluginInstall +qall
 ```
 
+## YouCompleteMe
+
+### Configuration ~/.vimrc
+```
+Plugin 'Valloric/YouCompleteMe'
+```
+
+### Install Plugin
+```bash
+vim +PluginInstall +qall
+```
+
+### Installation
+```bash
+sudo apt-get install -y build-essential cmake
+sudo apt-get install -y python-dev python3-dev
+```
+
+### Install Plugin
+```bash
+vim +PluginInstall +qall
+```
+
+### Compile support
+```bash
+cd ~/.vim/bundle/YouCompleteMe
+./install.py --all
+```
+
 # Reference
 - [Vundle](https://github.com/VundleVim/Vundle.vim)
 - [NERD Tree](https://github.com/scrooloose/nerdtree)
+- [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
 - [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
+
