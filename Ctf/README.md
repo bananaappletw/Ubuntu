@@ -25,6 +25,12 @@ sudo pip3 install --upgrade pwntools
 sudo apt-get install -y nasm
 ```
 
+# Nmap
+
+```bash
+sudo apt-get install -y nmap
+```
+
 # Gdb peda
 
 ```bash
