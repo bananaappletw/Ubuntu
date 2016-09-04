@@ -14,3 +14,6 @@
 - [Google Chrome](./Chrome)
 
 - [Powerline](./Powerline)
+
+- [Hexo](./Hexo)
+
