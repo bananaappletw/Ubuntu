@@ -11,4 +11,6 @@
 
 - [Ctf](./Ctf)
 
+- [Google Chrome](./Chrome)
+
 - [Powerline](./Powerline)
