@@ -1,4 +1,4 @@
-# Vim
+# Git
 
 # Installation
 
