@@ -10,7 +10,7 @@ then
    echo "Google source list exists in file"
 else
    echo "Add Google source list"
-   echo "deb http://dl.google.com/linux/deb/ stable non-free main" | sudo tee --append /etc/apt/sources.list
+   echo "deb [arch=amd64] http://dl.google.com/linux/deb/ stable non-free main" | sudo tee --append /etc/apt/sources.list
 fi
 ```
 
