@@ -1,4 +1,4 @@
-# Vim
+# Ctf
 
 # Support 32 bits program 
 
@@ -39,6 +39,3 @@ echo "source ~/peda/peda.py" >> ~/.gdbinit
 ```
 
 # Reference
-- [Vundle](https://github.com/VundleVim/Vundle.vim)
-- [NERD Tree](https://github.com/scrooloose/nerdtree)
-- [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
