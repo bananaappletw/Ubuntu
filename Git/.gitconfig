@@ -1,0 +1,18 @@
+[user]
+        name = bananaappletw
+        email = webberapple@gmail.com
+[core]
+        editor = vim
+[color]
+        ui = true
+[push]
+    default = simple
+[merge]
+    ff = no
+[alias]
+        st = status
+        co = checkout
+        br = branch
+        up = rebase
+        ci = commit
+

@@ -38,6 +38,7 @@ set tabstop=4
 " To change the number of space characters inserted for indentation
 set shiftwidth=4
 ```
+
 # Plugins
 
 ## Plugin manager Vundle
@@ -48,6 +49,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
 ### Configuration ~/.vimrc
+
 ```
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -66,15 +68,19 @@ filetype plugin indent on    " required
 ## NERD Tree
 
 ### Configuration ~/.vimrc
+
 ```
 Plugin 'scrooloose/nerdtree'
 ```
-### Press F1 to open NERD Tree
+
+### Press F2 to open NERD Tree
+
 ```
-map <F1> :NERDTreeToggle<CR>
+map <F2> :NERDTreeToggle<CR>
 ```
 
 ### Install Plugin
+
 ```bash
 vim +PluginInstall +qall
 ```
@@ -82,27 +88,32 @@ vim +PluginInstall +qall
 ## YouCompleteMe
 
 ### Configuration ~/.vimrc
+
 ```
 Plugin 'Valloric/YouCompleteMe'
 ```
 
 ### Install Plugin
+
 ```bash
 vim +PluginInstall +qall
 ```
 
 ### Installation
+
 ```bash
 sudo apt-get install -y build-essential cmake
 sudo apt-get install -y python-dev python3-dev
 ```
 
 ### Install Plugin
+
 ```bash
 vim +PluginInstall +qall
 ```
 
 ### Compile support
+
 ```bash
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --all
