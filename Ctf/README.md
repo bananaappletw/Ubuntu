@@ -59,6 +59,7 @@ sudo pip install angr
 # triton
 
 ```bash
+sudo apt-get install -y libcapstone3 libcapstone-dev
 git clone https://github.com/JonathanSalwan/Triton.git
 cd Triton
 mkdir build
