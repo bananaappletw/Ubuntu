@@ -56,6 +56,18 @@ sudo apt-get install -y python-dev python-pip libffi-dev build-essential virtual
 sudo pip install angr
 ```
 
+# triton
+
+```bash
+git clone https://github.com/JonathanSalwan/Triton.git
+cd Triton
+mkdir build
+cd build
+cmake ..
+sudo make -j2 install
+```
+
+
 # Reference
 - [Gdb peda](https://github.com/longld/peda.git)
 

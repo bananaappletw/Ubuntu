@@ -15,4 +15,10 @@ make
 sudo make install
 sudo apt-get install -y python-dev python-pip libffi-dev build-essential virtualenvwrapper
 sudo pip install angr
+git clone https://github.com/JonathanSalwan/Triton.git
+cd Triton
+mkdir build
+cd build
+cmake ..
+sudo make -j2 install
 
