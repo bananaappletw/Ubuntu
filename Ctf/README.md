@@ -56,10 +56,16 @@ sudo apt-get install -y python-dev python-pip libffi-dev build-essential virtual
 sudo pip install angr
 ```
 
-# triton
+# capstone
 
 ```bash
 sudo apt-get install -y libcapstone3 libcapstone-dev
+```
+
+
+# triton
+
+```bash
 git clone https://github.com/JonathanSalwan/Triton.git
 cd Triton
 mkdir build
