@@ -41,6 +41,7 @@ echo "source ~/peda/peda.py" >> ~/.gdbinit
 # z3
 
 ```bash
+cd ~/
 git clone https://github.com/Z3Prover/z3
 cd z3
 python scripts/mk_make.py
@@ -66,6 +67,7 @@ sudo apt-get install -y libcapstone3 libcapstone-dev
 # triton
 
 ```bash
+cd ~/
 git clone https://github.com/JonathanSalwan/Triton.git
 cd Triton
 mkdir build
