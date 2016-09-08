@@ -15,7 +15,7 @@ sudo apt-get install -y python-pip
 # Pwntools
 
 ```bash
-sudo apt-get install -y libssl-dev
+sudo apt-get install -y python2.7 python-pip python-dev git libssl-dev
 sudo pip install --upgrade pwntools
 ```
 
