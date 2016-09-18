@@ -19,7 +19,7 @@ touch ~/.gitconfig
 ```
 [user]
         name = bananaappletw
-        email = webberapple@gmail.com
+        email = bananaappletw@gmail.com
 [core]
         editor = vim
 [color]
