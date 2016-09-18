@@ -5,5 +5,5 @@ export NVM_DIR="/home/apple/.nvm"
 nvm install stable
 sudo apt-get install -y nodejs-legacy
 sudo apt-get install -y npm
-sudo npm install hexo-cli -g
+npm install hexo-cli -g
 

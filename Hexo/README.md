@@ -8,6 +8,13 @@
 wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh
 ```
 
+## Reload nvm
+
+```bash
+export NVM_DIR="/home/apple/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+```
+
 ### Install stable node
 
 ```bash
@@ -26,10 +33,9 @@ sudo apt-get install -y nodejs-legacy
 sudo apt-get install -y npm
 ```
 
-
 ## Install hexo
 
 ```bash
-sudo npm install hexo-cli -g
+npm install hexo-cli -g
 ```
 
