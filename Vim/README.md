@@ -80,20 +80,6 @@ vim +PluginInstall +qall
 Plugin 'Valloric/YouCompleteMe'
 ```
 
-##  Editorconfig
-
-### Configuration ~/.vimrc
-
-```
-Plugin 'editorconfig/editorconfig-vim'
-```
-
-### Install Plugin
-
-```bash
-vim +PluginInstall +qall
-```
-
 ### Installation
 
 ```bash
@@ -112,6 +98,20 @@ vim +PluginInstall +qall
 ```bash
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --all
+```
+
+##  Editorconfig
+
+### Configuration ~/.vimrc
+
+```
+Plugin 'editorconfig/editorconfig-vim'
+```
+
+### Install Plugin
+
+```bash
+vim +PluginInstall +qall
 ```
 
 # Reference
