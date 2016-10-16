@@ -5,8 +5,11 @@
 ```bash
 sudo apt-get install -y vim
 ```
+
 # Configuration
+
 ## Basic .vimrc
+
 ```
 " set syntax highlighting     
 syntax on             
@@ -22,22 +25,6 @@ set ai
 
 " Set to auto read when a file is changed from the outside
 set autoread
-
-
-"""""""
-" Tab "
-"""""""
-
-" To insert space characters whenever the tab key is pressed
-" With this option set, if you want to enter a real tab character use Ctrl-V<Tab> key sequence.
-set expandtab
-
-" To control the number of space characters that will be inserted when the tab key is pressed
-set tabstop=4
-
-" To change the number of space characters inserted for indentation
-set shiftwidth=4
-```
 
 # Plugins
 
@@ -93,6 +80,14 @@ vim +PluginInstall +qall
 Plugin 'Valloric/YouCompleteMe'
 ```
 
+##  Editorconfig
+
+### Configuration ~/.vimrc
+
+```
+Plugin 'editorconfig/editorconfig-vim'
+```
+
 ### Install Plugin
 
 ```bash
@@ -123,5 +118,6 @@ cd ~/.vim/bundle/YouCompleteMe
 - [Vundle](https://github.com/VundleVim/Vundle.vim)
 - [NERD Tree](https://github.com/scrooloose/nerdtree)
 - [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
+- [Editorconfig](https://github.com/editorconfig/editorconfig-vim)
 - [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
 

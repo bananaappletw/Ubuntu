@@ -5,6 +5,7 @@ sudo apt-get install -y python-dev python3-dev
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 DIR=$(dirname "$(readlink -f "$0")")
 cp $DIR/.vimrc ~/.vimrc
+cp $DIR/.editorconfig ~/.editorconfig
 vim +PluginInstall +qall
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --all
