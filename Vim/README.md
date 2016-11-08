@@ -97,7 +97,7 @@ vim +PluginInstall +qall
 
 ```bash
 cd ~/.vim/bundle/YouCompleteMe
-./install.py --all
+./install.py --clang-completer
 ```
 
 ##  Editorconfig

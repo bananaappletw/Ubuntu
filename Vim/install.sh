@@ -8,4 +8,4 @@ cp $DIR/.vimrc ~/.vimrc
 cp $DIR/.editorconfig ~/.editorconfig
 vim +PluginInstall +qall
 cd ~/.vim/bundle/YouCompleteMe
-./install.py --all
+./install.py --clang-completer

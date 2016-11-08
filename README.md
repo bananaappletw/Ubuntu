@@ -3,10 +3,8 @@
 
 - Editor
 	- [Vim](./Vim)
-	- [Emacs](./Emacs)
 
 - Terminal multiplexer
-	- [Screen](./Screen)
 	- [Tmux](./Tmux)
 
 - [Ctf](./Ctf)
