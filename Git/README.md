@@ -39,7 +39,7 @@ touch ~/.gitconfig
 # Generating a new SSH key
 
 ```bash
-ssh-keygen -t rsa -b 4096 -C "webberapple@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "bananaappletw@gmail.com"
 ```
 
 # Copy ~/.ssh/id_rsa.pub content add to github
