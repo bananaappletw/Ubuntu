@@ -43,6 +43,7 @@ ssh-keygen -t rsa -b 4096 -C "bananaappletw@gmail.com"
 ```
 
 # Copy ~/.ssh/id_rsa.pub content add to github
+
 ```bash
 curl -u "bananaappletw" \
 -H "Content-Type: application/json" -X POST \
@@ -50,5 +51,25 @@ curl -u "bananaappletw" \
 https://api.github.com/user/keys
 ```
 
+# hub
+
+## Installation
+
+```bash
+git clone https://github.com/github/hub.git /tmp/hub
+cd /tmp/hub
+script/build -o ~/bin/hub
+```
+
+## Configuration 
+
+Add following lines into .bashrc
+
+```
+PATH=$PATH:~/bin
+alias git='hub'
+```
+
 # Reference
 - [Github api](https://developer.github.com/v3/)
+- [hub](https://github.com/github/hub)
