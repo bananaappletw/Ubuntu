@@ -1,4 +1,7 @@
 # Customize-Ubuntu-step-by-step
+
+- [Misc](./Misc)
+
 - [Git](./Git)
 
 - Editor
@@ -14,4 +17,3 @@
 - [Powerline](./Powerline)
 
 - [Hexo](./Hexo)
-
