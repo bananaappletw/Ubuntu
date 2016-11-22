@@ -18,6 +18,10 @@ indent_style = space
 # 4 space indentation
 indent_size = 4
 
+[*.rb]
+# 4 space indentation
+indent_size = 2
+
 [*.js]
 # 2 space indentation
 indent_size = 2
