@@ -16,6 +16,7 @@ sudo make install
 sudo apt-get install -y python-dev python-pip libffi-dev build-essential virtualenvwrapper
 sudo pip install angr
 sudo apt-get install -y libcapstone3 libcapstone-dev
+sudo apt-get install -y libboost-all-dev
 cd ~/
 git clone https://github.com/JonathanSalwan/Triton.git
 cd Triton

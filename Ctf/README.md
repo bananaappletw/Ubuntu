@@ -67,6 +67,7 @@ sudo apt-get install -y libcapstone3 libcapstone-dev
 # triton
 
 ```bash
+sudo apt-get install -y libboost-all-dev
 cd ~/
 git clone https://github.com/JonathanSalwan/Triton.git
 cd Triton
