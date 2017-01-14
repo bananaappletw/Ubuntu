@@ -7,6 +7,7 @@ root = true
 # Unix-style newlines with a newline ending every file
 end_of_line = lf
 insert_final_newline = true
+trim_trailing_whitespace = true
 
 # Set default charset
 charset = utf-8
@@ -14,17 +15,20 @@ charset = utf-8
 # using space to replace tab
 indent_style = space
 
-[*.py]
+[*.{c,py}]
 # 4 space indentation
 indent_size = 4
 
-[*.rb]
+[*.{rb,erb}]
 # 4 space indentation
 indent_size = 2
 
-[*.js]
+[*.{html,sass,js}]
 # 2 space indentation
 indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
 
 [Makefile]
 # Tab indentation (no size specified)
