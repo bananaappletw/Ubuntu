@@ -1,12 +1,12 @@
-" set syntax highlighting     
-syntax on             
+" set syntax highlighting
+syntax on
 
 " set line number
-set number    
-                   
+set number
+
 " set ruler
-set ruler     
-                     
+set ruler
+
 " set auto intent
 set ai
 
@@ -34,3 +34,7 @@ Plugin 'editorconfig/editorconfig-vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 map q <Nop>
+set cursorline
+set cursorcolumn
+highlight CursorLine   cterm=NONE ctermbg=black ctermfg=green guibg=NONE guifg=NONE
+highlight CursorColumn cterm=NONE ctermbg=black ctermfg=green guibg=NONE guifg=NONE
