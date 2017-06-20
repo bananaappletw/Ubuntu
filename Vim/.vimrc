@@ -31,7 +31,7 @@ Plugin 'Valloric/YouCompleteMe'
 
 Plugin 'editorconfig/editorconfig-vim'
 
-Plug 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdcommenter'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
