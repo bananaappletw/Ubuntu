@@ -5,4 +5,4 @@ sudo pip3 install powerline-status
 DIR=$(dirname "$(readlink -f "$0")")
 cat $DIR/.vimrc | tee --append ~/.vimrc
 cat $DIR/.bashrc | tee --append ~/.bashrc
-cp $DIR/.tmux.conf ~/.tmux.conf
+cat $DIR/.tmux.conf | tee --append ~/.tmux.conf
