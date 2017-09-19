@@ -38,6 +38,7 @@ Plugin 'tpope/vim-rails'
 call vundle#end()            " required
 filetype plugin indent on    " required
 map q <Nop>
+map <F3> :set paste<CR>
 set cursorline
 set cursorcolumn
 highlight CursorLine   cterm=NONE ctermbg=black ctermfg=green guibg=NONE guifg=NONE
