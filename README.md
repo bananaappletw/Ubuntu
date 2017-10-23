@@ -1,19 +1,21 @@
 # Customize-Ubuntu-step-by-step
 
-- [Misc](./Misc)
+- [Google Chrome](./Chrome)
+
+- [Ctf](./Ctf)
 
 - [Git](./Git)
 
-- Editor
-	- [Vim](./Vim)
+- [Hexo](./Hexo)
+
+- [Misc](./Misc)
+
+- [Powerline](./Powerline)
+
+- [Ruby on Rails](./Rails)
 
 - Terminal multiplexer
 	- [Tmux](./Tmux)
 
-- [Ctf](./Ctf)
-
-- [Google Chrome](./Chrome)
-
-- [Powerline](./Powerline)
-
-- [Hexo](./Hexo)
+- Editor
+	- [Vim](./Vim)
