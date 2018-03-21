@@ -35,6 +35,8 @@ Plugin 'scrooloose/nerdcommenter'
 
 Plugin 'tpope/vim-rails'
 
+Plugin 'posva/vim-vue'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 map q <Nop>
