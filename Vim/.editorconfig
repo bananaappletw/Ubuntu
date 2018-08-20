@@ -15,21 +15,105 @@ charset = utf-8
 # using space to replace tab
 indent_style = space
 
-[*.{c,py}]
-# 4 space indentation
-indent_size = 4
+# Width 4 of a single tabstop character
+tab_width= 4
 
-[*.{rb,erb}]
-# 4 space indentation
-indent_size = 2
-
-[*.{html,sass,js,vue,yml}]
+# JSON/YML
 # 2 space indentation
+[*.{json,yml}]
+indent_style = space
 indent_size = 2
 
+# Markdown
 [*.md]
 trim_trailing_whitespace = false
 
-[Makefile]
+# Bash
+# https://google.github.io/styleguide/shell.xml#Indentation
+# 2 space indentation
+[*.sh]
+indent_style = space
+indent_size = 2
+
+# C/C++/header files
+# https://google.github.io/styleguide/cppguide.html#Spaces_vs._Tabs
+# 2 space indentation
+[*.{c,cpp,h,hpp}]
+indent_style = space
+indent_size = 2
+
+# Makefile
 # Tab indentation (no size specified)
+[Makefile]
 indent_style = tab
+
+# Java
+# https://google.github.io/styleguide/javaguide.html#s4.2-block-indentation
+# https://google.github.io/styleguide/javaguide.html#s4.5.2-line-wrapping-indent
+[*.java]
+indent_style = space
+indent_size = 2
+continuation_indent_size = 4
+
+# Ruby
+# https://github.com/github/rubocop-github/blob/master/STYLEGUIDE.md
+[*.{rb,erb}]
+# 2 space indentation
+indent_style = space
+indent_size = 2
+
+# Python
+# https://www.python.org/dev/peps/pep-0008/#indentation
+# 4 space indentation
+[*.py]
+indent_style = space
+indent_size = 4
+
+# Golang
+# https://golang.org/cmd/gofmt/
+# Tab indentation (no size specified)
+[*.go]
+indent_style = tab
+
+
+# HTML
+# https://www.w3schools.com/html/html5_syntax.asp
+[*.html]
+# 2 space indentation
+indent_style = space
+indent_size = 2
+
+# CSS/SASS/SCSS/LESS
+# https://www.drupal.org/docs/develop/standards/css/css-formatting-guidelines#whitespace
+[*.{css,sass,scss,less}]
+# 2 space indentation
+indent_style = space
+indent_size = 2
+
+# Javascript
+# https://standardjs.com/
+# 2 space indentation
+[*.js]
+indent_style = space
+indent_size = 2
+
+# Vue
+# https://github.com/vuejs/eslint-plugin-vue/blob/master/.editorconfig
+# 2 space indentation
+[*.vue]
+indent_style = space
+indent_size = 2
+
+# Angular
+# https://github.com/angular/angular/blob/master/.editorconfig
+# 2 space indentation
+[*.ts]
+indent_style = space
+indent_size = 2
+
+# JSX
+# https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
+# 4 space indentation
+[*.jsx]
+indent_style = space
+indent_size = 4
