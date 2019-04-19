@@ -6,9 +6,12 @@
 [color]
         ui = true
 [push]
-    default = simple
+	default = simple
 [pull]
-    ff = yes
+	ff = yes
+	rebase = true
+[rebase]
+	autoStash = true
 [merge]
     ff = no
 [alias]
